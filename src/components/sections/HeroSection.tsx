@@ -19,21 +19,21 @@ export default function HeroSection() {
         {/* Eyebrow badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-background-elevated/50 text-sm text-foreground-muted mb-8">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          Now AI-Enhanced
+          Award-Winning Title Design Studio
         </div>
 
         {/* Headline */}
         <h1 className="font-[var(--font-heading)] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] tracking-tight">
-          Your Production Team&apos;s{" "}
+          Where Stories{" "}
           <span className="bg-gradient-to-r from-primary via-pink-500 to-accent bg-clip-text text-transparent">
-            Creative Team
+            Begin
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="mt-6 text-lg sm:text-xl md:text-2xl text-foreground-muted max-w-2xl mx-auto leading-relaxed">
-          We craft world-class title sequences, motion graphics, and visual identities for film,
-          TV, and streaming — powered by top-tier talent and AI.
+          We craft award-winning title sequences, motion design, and visual storytelling for the
+          world&apos;s most iconic films, series, and brands.
         </p>
 
         {/* CTAs */}
@@ -42,7 +42,7 @@ export default function HeroSection() {
             href="#cta"
             className="inline-flex h-14 items-center justify-center px-8 rounded-xl text-lg font-medium bg-gradient-to-r from-primary to-pink-500 text-white hover:opacity-90 hover:scale-105 transition-all shadow-lg shadow-primary/25"
           >
-            Book a Call
+            Start a Project
           </a>
           <a
             href="#work"

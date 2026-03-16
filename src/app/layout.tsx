@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FilmTitles — Your Production Team's Creative Team",
+  title: "Prologue — Where Stories Begin",
   description:
-    "World-class title sequences, motion graphics, and visual identities for film, TV, and streaming — powered by top-tier talent and AI.",
+    "Award-winning title sequences, motion design, and visual storytelling for film, television, and streaming — crafted by world-class artists.",
 };
 
 export default function RootLayout({

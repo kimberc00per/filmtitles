@@ -26,9 +26,8 @@ export default function Header() {
         <div className="flex h-18 items-center justify-between">
           <a href="#" className="font-[var(--font-heading)] text-xl font-bold tracking-tight">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              FILM
+              PROLOGUE
             </span>
-            TITLES
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -51,7 +50,7 @@ export default function Header() {
               href="#cta"
               className="inline-flex h-10 items-center px-5 rounded-xl text-sm font-medium bg-gradient-to-r from-primary to-pink-500 text-white hover:opacity-90 transition-opacity"
             >
-              Book a Call
+              Get in Touch
             </a>
           </div>
 
@@ -83,7 +82,7 @@ export default function Header() {
               className="block w-full text-center mt-4 py-3 rounded-xl text-sm font-medium bg-gradient-to-r from-primary to-pink-500 text-white"
               onClick={() => setMobileOpen(false)}
             >
-              Book a Call
+              Get in Touch
             </a>
           </div>
         </div>

@@ -8,13 +8,12 @@ export default function Footer() {
           <div>
             <a href="#" className="font-[var(--font-heading)] text-xl font-bold tracking-tight">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                FILM
+                PROLOGUE
               </span>
-              TITLES
             </a>
             <p className="mt-4 text-sm text-foreground-muted leading-relaxed">
-              Your production team&apos;s creative team. World-class title sequences, motion
-              graphics, and visual identities.
+              Where stories begin. Award-winning title sequences, motion design, and visual
+              storytelling for film and television.
             </p>
             <div className="flex gap-4 mt-6">
               {["X", "Li", "In", "Vm"].map((s) => (
@@ -69,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-foreground-subtle">&copy; 2026 FilmTitles. All rights reserved.</p>
+          <p className="text-sm text-foreground-subtle">&copy; 2026 Prologue. All rights reserved.</p>
           <p className="text-sm text-foreground-subtle">Built with passion for visual storytelling.</p>
         </div>
       </div>

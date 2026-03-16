@@ -2,25 +2,25 @@ import { DollarSign, Star, Zap } from "lucide-react";
 
 const props = [
   {
-    icon: DollarSign,
-    highlight: "Up to 50%",
-    title: "More Cost-Effective",
-    description:
-      "Get enterprise-grade creative at a fraction of the cost of traditional post-production houses. Our subscription model means no surprise invoices.",
-  },
-  {
     icon: Star,
-    highlight: "Top 1%",
-    title: "World-Class Talent + AI",
+    highlight: "25+",
+    title: "Years of Award-Winning Work",
     description:
-      "The best global creative talent, enhanced by industry-leading AI tools. Every frame is crafted to the highest standard your brand demands.",
+      "A proven track record of crafting iconic title sequences for the biggest names in entertainment. Our work defines the opening moments of cinema.",
   },
   {
     icon: Zap,
-    highlight: "12 Hours",
-    title: "Lightning-Fast Turnaround",
+    highlight: "End-to-End",
+    title: "Full Creative Pipeline",
     description:
-      "From concept to delivery in record time. Our distributed team across 17 time zones means your project never sleeps.",
+      "From concept and art direction through animation, compositing, and final delivery — one team, one vision, no handoff gaps.",
+  },
+  {
+    icon: DollarSign,
+    highlight: "Scalable",
+    title: "From Indie to Blockbuster",
+    description:
+      "Whether it's a $75K indie title card or a $200K+ theatrical sequence, we tailor our approach to match your project's scope and budget.",
   },
 ];
 
@@ -30,10 +30,10 @@ export default function ValueProps() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-primary text-sm font-medium uppercase tracking-widest mb-4">
-            Why FilmTitles
+            Why Prologue
           </p>
           <h2 className="font-[var(--font-heading)] text-3xl sm:text-4xl md:text-5xl font-bold">
-            Built for Speed, Quality, and Scale
+            Artistry Meets Precision
           </h2>
         </div>
 

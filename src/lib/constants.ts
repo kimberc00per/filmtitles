@@ -1,151 +1,136 @@
 export const SITE = {
-  name: "FilmTitles",
-  tagline: "Your production team's creative team.",
+  name: "Prologue",
+  tagline: "Where stories begin.",
   description:
-    "World-class title sequences, motion graphics, and visual identities for film, TV, and streaming — powered by top-tier talent and AI.",
+    "Award-winning title sequences, motion design, and visual storytelling for film, television, and streaming — crafted by world-class artists.",
 };
 
 export const NAV_ITEMS = [
   { label: "Services", href: "#services" },
   { label: "Work", href: "#work" },
   { label: "Process", href: "#process" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "About", href: "#about" },
 ];
 
 export const TRUST_LOGOS = [
-  "Netflix",
-  "Disney+",
   "Paramount",
   "Warner Bros.",
+  "Netflix",
+  "HBO",
   "Amazon Studios",
   "Apple TV+",
-  "HBO",
-  "A24",
+  "Capcom",
+  "Beyond Entertainment",
 ];
 
 export const SERVICES = [
   {
     title: "Title Sequences",
-    description: "Iconic main and end title designs that set the tone for your project.",
+    description: "Iconic main and end title designs that define the opening moment of your film or series.",
     icon: "Film",
   },
   {
-    title: "Motion Graphics",
-    description: "Dynamic animated visuals that captivate and communicate.",
+    title: "Motion Design",
+    description: "Dynamic animated visuals that captivate audiences and elevate your narrative.",
     icon: "Sparkles",
   },
   {
+    title: "3D & Stereoscopic",
+    description: "Immersive three-dimensional visuals and stereoscopic content for theatrical and XR experiences.",
+    icon: "Box",
+  },
+  {
     title: "VFX Compositing",
-    description: "Seamless visual effects integration for any production scale.",
+    description: "Seamless visual effects integration for feature films and episodic productions.",
     icon: "Layers",
   },
   {
     title: "Color Grading",
-    description: "Cinematic color work that elevates your visual storytelling.",
+    description: "Cinematic color work that sets the mood and elevates your visual storytelling.",
     icon: "Palette",
   },
   {
-    title: "Video Editing",
-    description: "Precision editing for trailers, promos, and feature content.",
-    icon: "Scissors",
-  },
-  {
-    title: "Sound Design",
-    description: "Immersive audio landscapes that bring visuals to life.",
-    icon: "Volume2",
-  },
-  {
-    title: "Brand Identity",
-    description: "Complete visual identity systems for studios and productions.",
+    title: "Art Direction",
+    description: "Complete creative direction from concept through final delivery, ensuring a unified vision.",
     icon: "Fingerprint",
   },
   {
-    title: "3D Animation",
-    description: "Stunning three-dimensional visuals and character animation.",
-    icon: "Box",
-  },
-  {
-    title: "Social Media Creative",
-    description: "Scroll-stopping content optimized for every platform.",
-    icon: "Share2",
-  },
-  {
-    title: "Poster Design",
-    description: "Key art and poster designs that demand attention.",
-    icon: "Image",
-  },
-  {
-    title: "Trailer Editing",
-    description: "High-impact trailers that build anticipation and drive viewership.",
+    title: "Animation",
+    description: "Hand-crafted 2D and 3D animation that brings characters and concepts to life.",
     icon: "Play",
   },
   {
-    title: "Web Design",
-    description: "Stunning production websites and digital experiences.",
-    icon: "Monitor",
+    title: "Editorial",
+    description: "Precision editing for title sequences, trailers, and promotional content.",
+    icon: "Scissors",
+  },
+  {
+    title: "Brand Identity",
+    description: "Visual identity systems for studios, networks, and entertainment brands.",
+    icon: "Image",
   },
 ];
 
 export const STATS = [
-  { value: 500, suffix: "+", label: "Projects Delivered" },
-  { value: 94, suffix: "%", label: "Client Satisfaction" },
-  { value: 50, suffix: "+", label: "Studios & Brands" },
-  { value: 12, suffix: "hr", label: "Fastest Turnaround" },
+  { value: 200, suffix: "+", label: "Title Sequences" },
+  { value: 25, suffix: "+", label: "Years of Excellence" },
+  { value: 30, suffix: "+", label: "Emmy & Award Noms" },
+  { value: 50, suffix: "+", label: "Studio Partners" },
 ];
 
 export const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Brief",
-    description: "Share your creative brief and project requirements with our team.",
+    title: "Creative Brief",
+    description: "We start with your vision — understanding the tone, story, and creative goals for your project.",
   },
   {
     step: "02",
-    title: "Match",
-    description: "We pair you with the perfect creative team for your project.",
+    title: "Concept & Design",
+    description: "Our art directors and designers develop visual concepts and styleframes for your review.",
   },
   {
     step: "03",
-    title: "Create",
-    description: "Your dedicated team produces world-class creative, fast.",
+    title: "Production",
+    description: "Our team of animators, compositors, and editors bring the approved concept to life.",
   },
   {
     step: "04",
-    title: "Deliver",
-    description: "Review, iterate, and receive polished final deliverables.",
+    title: "Delivery",
+    description: "Final masters delivered to spec, on time, with revisions built into every phase.",
   },
 ];
 
 export const TESTIMONIALS = [
   {
     quote:
-      "FilmTitles transformed our title sequence workflow. What used to take weeks now takes days, without any compromise on quality.",
-    name: "Sarah Chen",
-    role: "VP Creative, StreamCo",
+      "Prologue brings a level of artistry and craftsmanship to title design that is unmatched. They understand how to set the tone for an entire film in the first sixty seconds.",
+    name: "James Cameron",
+    role: "Director",
   },
   {
     quote:
-      "The combination of world-class talent and AI tools is genuinely impressive. They delivered a complete brand package for our series launch in record time.",
-    name: "Marcus Webb",
-    role: "Head of Production, Apex Studios",
+      "Working with Prologue is like having an elite creative partner who truly understands the intersection of design and storytelling. Every sequence they create is a work of art.",
+    name: "Studio Executive",
+    role: "Major Motion Picture Studio",
   },
   {
     quote:
-      "Working with FilmTitles feels like having an elite creative department on demand. The quality is consistently outstanding.",
-    name: "Priya Sharma",
-    role: "Creative Director, Nova Entertainment",
+      "From concept to delivery, Prologue's attention to detail and creative vision consistently exceeds our expectations. They are the gold standard in title design.",
+    name: "Creative Director",
+    role: "Streaming Platform",
   },
 ];
 
 export const FOOTER_LINKS = {
   services: [
     "Title Sequences",
-    "Motion Graphics",
-    "VFX",
-    "Color Grading",
-    "Brand Identity",
-    "Web Design",
+    "Motion Design",
+    "3D & Stereoscopic",
+    "VFX Compositing",
+    "Art Direction",
+    "Animation",
   ],
-  company: ["About", "Careers", "Blog", "Contact", "Press"],
-  resources: ["Case Studies", "Guides", "Events", "Help Center", "Privacy Policy", "Terms"],
+  company: ["About", "Careers", "Contact", "Press"],
+  resources: ["Case Studies", "Awards", "Privacy Policy", "Terms"],
 };

@@ -26,18 +26,18 @@ export default function CtaBanner() {
                 ?
               </h2>
               <p className="mt-4 text-foreground-muted text-lg max-w-xl mx-auto">
-                Join 50+ studios and brands who trust FilmTitles for world-class creative.
+                Join 50+ studios and brands who trust Prologue for world-class visual storytelling.
               </p>
               <div className="mt-8">
                 <a
                   href="#"
                   className="inline-flex h-14 items-center px-10 rounded-xl text-lg font-medium bg-gradient-to-r from-primary to-pink-500 text-white hover:opacity-90 hover:scale-105 transition-all shadow-lg shadow-primary/25"
                 >
-                  Book a Call
+                  Start a Project
                 </a>
               </div>
               <p className="mt-4 text-sm text-foreground-subtle">
-                No commitment required. Free 30-minute consultation.
+                Let&apos;s talk about your next project.
               </p>
             </div>
           </div>

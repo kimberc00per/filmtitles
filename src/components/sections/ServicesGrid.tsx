@@ -5,13 +5,10 @@ import {
   Layers,
   Palette,
   Scissors,
-  Volume2,
   Fingerprint,
   Box,
-  Share2,
   Image,
   Play,
-  Monitor,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -20,13 +17,10 @@ const iconMap: Record<string, React.ElementType> = {
   Layers,
   Palette,
   Scissors,
-  Volume2,
   Fingerprint,
   Box,
-  Share2,
   Image,
   Play,
-  Monitor,
 };
 
 export default function ServicesGrid() {
@@ -38,18 +32,18 @@ export default function ServicesGrid() {
             What We Do
           </p>
           <h2 className="font-[var(--font-heading)] text-3xl sm:text-4xl md:text-5xl font-bold">
+            Our{" "}
             <span className="bg-gradient-to-r from-primary via-pink-500 to-accent bg-clip-text text-transparent">
-              60+
-            </span>{" "}
-            Creative Services
+              Creative Services
+            </span>
           </h2>
           <p className="mt-4 text-foreground-muted text-lg max-w-2xl mx-auto">
-            From title sequences to brand identities, we handle every visual storytelling need your
-            production requires.
+            From title sequences to full visual identities, we bring every dimension of your
+            project&apos;s visual story to life.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {SERVICES.map((service) => {
             const Icon = iconMap[service.icon] || Film;
             return (

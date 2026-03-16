@@ -9,7 +9,7 @@ export default function ShowreelSection() {
             Our Work
           </p>
           <h2 className="font-[var(--font-heading)] text-3xl sm:text-4xl md:text-5xl font-bold">
-            See Our Work in Action
+            Featured Projects
           </h2>
         </div>
 
@@ -24,7 +24,7 @@ export default function ShowreelSection() {
           <div className="absolute bottom-6 left-6">
             <p className="text-sm text-foreground-muted">2026 Showreel</p>
             <p className="font-[var(--font-heading)] font-semibold text-lg">
-              FilmTitles — A Year of Creative Excellence
+              Prologue — 25 Years of Visual Storytelling
             </p>
           </div>
         </div>
@@ -32,10 +32,10 @@ export default function ShowreelSection() {
         {/* Project thumbnails */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
           {[
-            { title: "Neon Horizons", category: "Title Sequence" },
-            { title: "Project Atlas", category: "Motion Graphics" },
-            { title: "Midnight Run", category: "VFX" },
-            { title: "Nova Series", category: "Brand Identity" },
+            { title: "Hit Me Hard and Soft", category: "Title Sequence — Billie Eilish" },
+            { title: "Street Fighter", category: "Title Sequence — Capcom" },
+            { title: "The Batman", category: "Title Sequence" },
+            { title: "Westworld", category: "Main Titles — HBO" },
           ].map((project) => (
             <div
               key={project.title}
